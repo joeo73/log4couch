@@ -8,6 +8,17 @@
   <artifactId>log4couch</artifactId>
   <version>1.1</version>
 
+  <description>
+    log4j couchDB appender
+  </description>
+
+  <developers>
+    <developer>
+      <name>Joe Osowski</name>
+      <email>josowski@plos.org</email>
+    </developer>
+  </developers>
+
   <dependencies>
     <dependency>
       <groupId>com.google.code.gson</groupId>
