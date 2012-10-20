@@ -123,6 +123,7 @@ public class CouchAppender extends AppenderSkeleton {
       writer.name("message").value((String)event.getMessage());
       writer.name("timestamp").value(event.getTimeStamp());
       writer.name("level").value(event.getLevel().toString());
+      writer.name("level_int").value(event.getLevel().toInt());
       writer.name("loggerName").value(event.getLoggerName());
       writer.name("threadName").value(event.getThreadName());
       writer.name("categoryName").value(event.getLoggerName());
