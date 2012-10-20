@@ -1,7 +1,7 @@
 An appender for writing log4j logging events to a couch database
   http://couchdb.apache.org
 
-To use, simply place the log4couch-.jar in your classpath next to the log4j jar.
+To use, simply place the log4couch-*.jar in your classpath next to the log4j jar.
 
 Append these values to your log4j.xml:
 
