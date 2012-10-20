@@ -17,4 +17,7 @@ Or these values to your .properties file:
     log4j.appender.couch.server=http://COUCHDB_HOST:5984/
     log4j.appender.couch.database=COUCHDB_LOG_DATABASE
     log4j.appender.couch.applicationName=APPLICATION_NAME
- 
+
+Or can fetch the jar file from:
+  http://joeo.ws/maven/log4couch/log4couch/1.1/log4couch-1.1.jar
+

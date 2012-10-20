@@ -19,6 +19,14 @@
     </developer>
   </developers>
 
+  <distributionManagement>
+    <repository>
+      <id>joeo</id>
+      <name>joeows Repository</name>
+      <url>scpexe://upallnite.com/home/josowski/www/joeo_ws/maven</url>
+    </repository>
+  </distributionManagement>
+
   <dependencies>
     <dependency>
       <groupId>com.google.code.gson</groupId>
@@ -39,6 +47,13 @@
   </dependencies>
 
   <build>
+    <extensions>
+      <extension>
+        <groupId>org.apache.maven.wagon</groupId>
+        <artifactId>wagon-ssh-external</artifactId>
+        <version>1.0-beta-6</version>
+      </extension>
+    </extensions>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
