@@ -99,7 +99,9 @@ public class CouchAppender extends AppenderSkeleton {
       connection.getResponseCode();
 
     } catch (IOException ex) {
-      throw new RuntimeException(ex.getMessage(), ex);
+      //Die silently
+      System.out.print(ex.getMessage());
+      //throw new RuntimeException(, ex);
     } finally {
       // Release the connection.
       if(connection != null) {
