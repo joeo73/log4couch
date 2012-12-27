@@ -3,6 +3,8 @@ An appender for writing log4j logging events to a couch database
 
 To use, simply place the log4couch-*.jar in your classpath next to the log4j jar.
 
+This jar is also be required: gson-2.2.2.jar
+
 Append these values to your log4j.xml:
 
     <appender name="couchdb" class="log4couch.CouchAppender">
